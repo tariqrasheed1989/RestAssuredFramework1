@@ -10,8 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 		features= "src/test/java/features",
 		glue= {"stepDefinitions"},
 		monochrome = true,
-		plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/cucumber.json"}
+		plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/jsonReports/cucumber.json"}
 		)
 public class TestRunner {
 
 }
+//tags = "@DeletePlace",
